@@ -213,6 +213,7 @@
              automatically render all blockquotes on load.
 
         Example (replace POST_ID with the real post shortcode, e.g. "C2x3Y4z5A6B"):
+        Paste the ENTIRE snippet Instagram gives you — do not omit the inner <a> fallback.
 
           <div class="instagram-embed-wrapper">
             <blockquote
@@ -221,6 +222,15 @@
               data-instgrm-permalink="https://www.instagram.com/p/POST_ID/"
               data-instgrm-version="14"
               style="background:#FFF;border:0;border-radius:3px;box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15);margin:1px;max-width:540px;min-width:326px;padding:0;width:99.375%;width:-webkit-calc(100% - 2px);width:calc(100% - 2px);">
+              <div style="padding:16px;">
+                <a href="https://www.instagram.com/p/POST_ID/"
+                   style="background:#FFFFFF;line-height:0;padding:0 0;text-align:center;text-decoration:none;width:100%;"
+                   target="_blank" rel="noopener noreferrer">
+                  <p style="color:#c9c8cd;font-family:Arial,sans-serif;font-size:14px;margin:8px 0 0 0;overflow:hidden;padding:8px 0 7px;text-overflow:ellipsis;white-space:nowrap;">
+                    View this post on Instagram
+                  </p>
+                </a>
+              </div>
             </blockquote>
           </div>
       -->
