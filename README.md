@@ -9,6 +9,7 @@ Creative portfolio and project repository for Cathleen Ann Tico.
 ## Projects
 
 - **Bluebornsongs** — Music and songwriting
+- **Victory** — Original song by Cathleen Ann Tico
 
 ## Connect
 
