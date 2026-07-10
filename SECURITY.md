@@ -2,8 +2,7 @@
 
 ## Supported Versions
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+Security updates, when needed, are applied to the default branch (`main`). This repository does not currently publish versioned releases for security servicing.
 
 | Version | Supported          |
 | ------- | ------------------ |
