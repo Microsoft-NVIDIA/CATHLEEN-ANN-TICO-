@@ -7,7 +7,7 @@ Security updates are applied to the default branch (`main`). Only the `main` bra
 | Branch | Supported          |
 | ------ | ------------------ |
 | `main` | :white_check_mark: |
-| others | :x:                |
+| other branches | :x:                |
 
 ## Reporting a Vulnerability
 
