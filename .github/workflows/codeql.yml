@@ -32,7 +32,7 @@ jobs:
     # The upload fails because GitHub's default CodeQL setup is also enabled on this repository.
     # To fully resolve this conflict, disable the default setup under Settings > Code security >
     # Code scanning, or remove this advanced workflow file.
-    continue-on-error: true
+    continue-on-error: ${{ github.event_name == 'pull_request' }}
     permissions:
       # required for all workflows
       security-events: write
