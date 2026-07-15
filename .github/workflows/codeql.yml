@@ -28,6 +28,10 @@ jobs:
     #   - https://gh.io/using-larger-runners (GitHub.com only)
     # Consider using larger runners or machines with greater resources for possible analysis time improvements.
     runs-on: ${{ (matrix.language == 'swift' && 'macos-latest') || 'ubuntu-latest' }}
+    # Note: continue-on-error prevents this job from blocking PRs when the SARIF upload fails.
+    # The upload fails because GitHub's default CodeQL setup is also enabled on this repository.
+    # To fully resolve this conflict, disable the default setup under Settings > Code security >
+    # Code scanning, or remove this advanced workflow file.
     continue-on-error: true
     permissions:
       # required for all workflows
