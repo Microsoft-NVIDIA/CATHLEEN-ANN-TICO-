@@ -4,12 +4,10 @@
 
 Security updates are provided only for the latest commit on the default branch (`main`). This repository does not currently maintain versioned releases, so older commits are not supported with security updates.
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+| Version | Supported |
+| ------- | --------- |
+| `main` (latest) | Yes |
+| Older commits | No |
 
 ## Reporting a Vulnerability
 
