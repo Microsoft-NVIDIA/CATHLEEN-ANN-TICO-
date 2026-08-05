@@ -2,8 +2,7 @@
 
 ## Supported Versions
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+Security updates are provided only for the latest commit on the default branch (`main`). This repository does not currently maintain versioned releases, so older commits are not supported with security updates.
 
 | Version | Supported          |
 | ------- | ------------------ |
