@@ -8,20 +8,9 @@ This repository does not currently publish versioned releases. Security fixes (w
 | ------- | --------- |
 | `main`  | :white_check_mark: |
 | Other   | :x: |
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
-
-| Version | Supported          |
-| ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
 
 ## Reporting a Vulnerability
 
-Use this section to tell people how to report a vulnerability.
+Please **do not** open a public GitHub issue to report a security vulnerability.
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+Instead, use [GitHub's private vulnerability reporting](https://github.com/Microsoft-NVIDIA/CATHLEEN-ANN-TICO-/security/advisories/new) to submit a report confidentially. You can expect an acknowledgement within a few business days. We will keep you informed of the progress and notify you when the vulnerability is resolved or if more information is needed.
