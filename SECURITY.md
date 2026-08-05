@@ -2,15 +2,12 @@
 
 ## Supported Versions
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+This repository does not currently publish versioned releases. Security fixes (when applicable) are made on the `main` branch.
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+| Version | Supported |
+| ------- | --------- |
+| `main`  | :white_check_mark: |
+| Other   | :x: |
 
 ## Reporting a Vulnerability
 
