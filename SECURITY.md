@@ -2,26 +2,20 @@
 
 ## Supported Versions
 
-This repository does not currently publish versioned releases. Security fixes (when needed) are applied to the default branch only.
+Use this section to tell people about which versions of your project are
+currently being supported with security updates.
 
-| Branch | Supported |
-| ------ | --------- |
-| main   | Yes       |
+| Version | Supported          |
+| ------- | ------------------ |
+| 5.1.x   | :white_check_mark: |
+| 5.0.x   | :x:                |
+| 4.0.x   | :white_check_mark: |
+| < 4.0   | :x:                |
 
 ## Reporting a Vulnerability
 
-**Please do not report security vulnerabilities through public GitHub issues.**
+Use this section to tell people how to report a vulnerability.
 
-To report a vulnerability privately, use GitHub's built-in
-[private vulnerability reporting](https://github.com/Microsoft-NVIDIA/CATHLEEN-ANN-TICO-/security/advisories/new)
-feature. This keeps the details confidential until a fix is available.
-
-When submitting a report, please include:
-- A description of the vulnerability and its potential impact.
-- Steps to reproduce the issue.
-- Any relevant proof-of-concept or supporting material.
-
-You can expect an acknowledgement within **3 business days**. We will keep you
-informed of our progress and notify you when the vulnerability has been
-addressed. If the report is accepted, we will coordinate a disclosure timeline
-with you. If it is declined, we will explain why.
+Tell them where to go, how often they can expect to get an update on a
+reported vulnerability, what to expect if the vulnerability is accepted or
+declined, etc.
