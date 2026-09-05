@@ -93,13 +93,15 @@ jobs:
         echo '  make release'
         exit 1
 
-    - name: Perform CodeQL Analysis
+    - name: Perform CodeQL Analysis (no upload on PR)
+      if: github.event_name == 'pull_request'
       uses: github/codeql-action/analyze@v4
-      # The repository has CodeQL's "default setup" enabled, which conflicts with
-      # this advanced-configuration workflow's SARIF upload ("CodeQL analyses from
-      # advanced configurations cannot be processed when the default setup is
-      # enabled"). Avoid failing pull request checks on that known configuration
-      # error while still surfacing failures on push/schedule runs.
-      continue-on-error: ${{ github.event_name == 'pull_request' }}
+      with:
+        category: "/language:${{matrix.language}}"
+        upload: false
+
+    - name: Perform CodeQL Analysis
+      if: github.event_name != 'pull_request'
+      uses: github/codeql-action/analyze@v4
       with:
         category: "/language:${{matrix.language}}"
